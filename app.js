@@ -1,13 +1,13 @@
 var questions = {
-    firstQ: "In what year was Michael Jordan drafted?",
-    secondQ: "Who was the previous NBA Commisioner before Adam Silver?",
-    thirdQ: "Which NBA Franchise has won the most NBA Championship Titles?",
+    firstQ: "In Naruto Shippuden, how does Sasuke Uchiha awaken the Rinnegan?",
+    secondQ: "Yurameshi Usuke is the main character of which 90's anime?",
+    thirdQ: "Which Shonen Jump thriller has Saiyans turning into apes when they see the moon?",
     fourthQ:
-      "What is it called when a player fouls a bad free-throw shooter intentionally?",
-    fifthQ: "Which NBA coach has coached both Michael Jordan and Kobe Bryant?",
+      "What vintage Shonen Jump anime has characters based off of constellations?",
+    fifthQ: "Which villian vowed to use the Hogyoku to wipe the world away?",
     sixthQ:
-      "The Los Angeles Lakers won the 1980 NBA Championship with who as their assisstant coach?",
-    seventhQ: "Dwyane Wade's nickname is ... ?"
+      "Why can't Sanji from One Piece touch females?",
+    seventhQ: "Characters from the anime Black Clover carry around a book that is called a..."
   };
   ​
   $(document).ready(function() {
@@ -28,13 +28,13 @@ var questions = {
     }
   ​
     var $startButton = $("<button>");
-    $startButton.html("Let's See!");
+    $startButton.html("Start!");
     $("#start").append($startButton);
   ​
     $startButton.on("click", function() {
       console.log(questions);
-      console.log("Let's Begin!");
-      confirm("Shall We Proceed?");
+      console.log("Let's start!");
+      confirm("Shall We Begin?");
       $startButton.hide();
       showTable();
       timer();
@@ -90,7 +90,7 @@ var questions = {
       resultsdiv.append(correctLine);
       resultsdiv.append(incorrectLine);
       resultsdiv.append(unansweredLine);
-      // $('#results').html(<h2>Hello</h2>)
+      
     }
   });
-  //  https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/
+  
